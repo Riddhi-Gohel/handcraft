@@ -1,0 +1,399 @@
+// home page responsive start
+@media  (max-width:575px) {
+    .space{
+        padding-top: 20px;
+    }
+    // topbar start
+    .topbar{
+        .top{
+            display: none;
+        }
+    }
+    // topbar end
+
+    // hero and header start
+    .overlay {
+        padding-bottom: 100px;
+        header{
+            .navbar-toggler{
+                background-color: $primary !important;
+                padding: 5px 10px;
+            }
+        }
+        .top{
+            display: none;
+        }
+        .hero{
+            p{
+                padding: 10px 20px;
+            }
+            h3{
+                padding-top: 100px;
+            }
+        }
+    }
+    // hero and header end
+    .heading-text{
+        font-size: 38px;
+    }
+    // second section start
+    .journal{
+        img{
+            width: 363px;
+        }
+        h2{
+            bottom:43px;
+            left:58px;
+        }
+    }
+
+    .ab-1{
+        h2{
+            bottom:30px;
+            left:45px;
+        }
+    }
+    // second section end
+    // journal section start
+    .journal-bg{
+        padding: 50px 0;
+        background-attachment:scroll;
+        h2{
+            &::before{
+                right:126px
+            }
+        }
+    }
+    // journal section end
+    // begining section start
+    .begining{
+        h2{
+            padding-top: 20px;
+        }
+        img{
+            width: 340px;
+        }
+        p{
+            text-align: center;
+            padding-bottom: 0 !important;
+            
+        }
+        .top{
+            display:none;
+        }
+    }
+    // begining section end
+    // review section start
+    .bg{
+        .owl-dots{
+            padding-right: 0;
+        }
+    }
+    // review section end
+    // video section start
+    .video-bg{
+        margin-top: 0 !important;
+        h2{
+            padding-top: 0 !important;
+            padding-bottom: 20px;
+        }
+    }
+    // video section end
+    // newslatter section start
+    .news {
+        input{
+            width: 67%;
+        }
+        h4{
+            padding-bottom: 10px;
+        }
+        button{
+            padding: 5px 15px;
+        }
+    }
+    // newslatter section end
+    // footer start
+    .bottom-footer 
+    {   
+       .text-end{
+            text-align: center !important;
+       }
+       p{
+        text-align: center;
+       }
+    }
+
+
+    // about page start
+    // hero and header start
+    .about{
+        .overlay{
+            padding-bottom: 100px;
+            header{
+                button{
+                    padding: 5px 10px;
+                }
+            }
+            .hero{
+                h3{
+                    padding-top: 100px;
+                }
+            }
+        }
+    }
+    // hero and header end
+    // about us start
+    .about-2{
+        h2{
+            padding-top: 20px;
+           
+        }
+    }
+    // about us end
+    // slider start
+    .slider2{
+        img{
+            width: 100% !important;
+        }
+    }
+    // slider end
+    // about page end
+
+
+    // shop page start
+    // hero and header start
+    .shop{
+        
+        .overlay{
+            padding-bottom: 100px;
+            header{
+                button{
+                    padding: 5px 10px;
+                }
+            }
+            .hero{
+                h3{
+                    padding-top: 100px;
+                }
+            }
+        }
+    }
+    .product-bg{
+       
+        .col-lg-6, .col-md-12{
+            padding-left: 00px !important;
+        }
+    }
+    // hero and header end
+    // journal section start
+    .center-1{
+        text-align: center;
+        h2{
+            padding-top: 20px;
+        }
+    }
+    // journal section end
+    // shop page end
+
+
+    // journal page start
+    // hero and header start
+    .journal-1{
+        .overlay{
+            padding-bottom: 100px;
+            header{
+                button{
+                    padding: 5px 10px;
+                }
+            }
+            .hero{
+                h3{
+                    padding-top: 100px;
+                }
+            }
+        }
+    }
+    // hero and header end
+    // journal page end
+
+    // contact page start
+    // hero and header start
+    .contact-bg{
+        .overlay{
+            padding-bottom: 100px;
+            header{
+                button{
+                    padding: 5px 10px;
+                }
+            }
+            .hero{
+                h3{
+                    padding-top: 100px;
+                }
+            }
+        }
+    }
+    // hero and header end
+    // contact section start
+    .contact{
+        padding: 30px 0;
+    }
+    // stay in touch start
+    .contact-box{
+        margin:10px 0;
+    }
+    .product-bg{
+        padding: 50px 0;
+    }
+}
+
+
+
+@media (min-width:576px) and (max-width:767px){
+    // home page start
+    .heading-text{
+        font-size: 38px;
+    }
+    .top{
+        display:none;
+    }
+    // hero and header start
+    .overlay {
+        padding-bottom: 100px;
+        header{
+            .navbar-toggler{
+                background-color: $primary !important;
+                padding: 5px 10px;
+            }
+        }
+        .top{
+            display: none;
+        }
+        .hero{
+            p{
+                padding: 10px 20px;
+            }
+            h3{
+                padding-top: 100px;
+            }
+        }
+    }
+    // hero and header end
+    // second section start
+    .space{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .ab-1{
+        h2{
+            bottom:45px;
+        }
+    }
+    .journal{
+        h2{
+            left: 100px;
+            bottom:55px;
+        }
+    }
+    // second section end
+    // journal start
+    .journal-bg{
+        h2{
+            &::before{
+                right: 208px;
+            }
+        }
+    }
+    // journal end
+    // begining start
+    .begining{
+        text-align: center;
+        h2{
+            padding-top: 20px;
+        }
+        img{
+            width: 500px;
+        }
+        p{
+            text-align: center;
+            padding-bottom: 0 !important;
+            
+        }
+    }
+    // begining end
+    // review start
+    .bg{
+        .owl-dots{
+            padding-right: 0;
+        }
+    }
+    // review end
+    // video start
+    .video-bg{
+        margin-top: 0 !important;
+        h2{
+            padding-top: 0 !important;
+            text-align: center;
+        }
+    }
+    // video end
+    // newslatter start
+    .center-1{
+        text-align: center;
+        .text-start{
+            text-align: center !important   ;
+        }
+        .news{
+            input{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    // newslatter end
+    // home page end
+
+    // about page start
+    // hero and header start
+    .about{
+        .overlay{
+            padding-bottom: 100px ;
+            header{
+                .navbar-toggler{
+                    background-color: $primary !important;
+                    padding: 5px 10px !important;
+                }
+            }
+            .hero{
+                h3{
+                    padding-top: 100px !important;
+                }
+            }
+        }
+    }
+
+    // hero and header end
+    // newslatter start
+    .center-1{
+        text-align: center;
+        .text-start{
+            text-align: center !important   ;
+        }
+        .news{
+            input{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    // newslatter end
+    // slider
+    .slider2{
+        img{
+            width:100% !important;
+        }
+    }
+    // about page end
+    // contact page
+    .contact-box{
+        margin:20px 0;
+    }
+}

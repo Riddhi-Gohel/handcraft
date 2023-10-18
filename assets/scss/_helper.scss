@@ -1,0 +1,23 @@
+// helper scss
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+}
+p{
+    margin: 0 !important;
+    font-size: $fs-16;
+    color:$black;
+    font-family: $font-roboto;
+}
+.pad-top{
+    padding-top: 70px;
+}
+.pad-bottom{
+    padding-bottom: 70px;
+}
+.mar-top{
+    margin-top: 100px;
+}
+.mar-bottom{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,387 @@
+// menu scss
+
+
+// topbar strat
+.topbar{
+    background-color: $primary;
+    height: 54px;
+    transition: all 0.5s;
+    p{
+        color:$white;
+        line-height: 19px;
+        font-weight: 500;
+        padding-top: 18px;
+    }
+    i{
+        color:$white;
+        font-size: $fs-16;
+        padding-top: 18px;
+        margin: 0 10px;
+    }
+}
+// topbar end
+
+
+.heading-text{
+    font-size: $fs-48;
+    font-family: $font-playfair;
+    color: $white !important;
+}
+
+// header & hero banner start
+.home{
+    background-image:url(../images/home-banner.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+    .overlay{
+        background-color:$black;
+        opacity:0.7;
+        padding-bottom: 150px;
+        header{
+            border-bottom: 1px solid $primary;
+            // width: 100%;
+           
+            // position: fixed !important;
+            // top:0;
+            // left:0;
+            // background-color:$black;
+            // z-index: 999;
+           
+            nav{
+                ul{
+                    li{
+                        a{
+                            font-size: 16px;
+                            font-weight: 500 !important;
+                            color:$white !important;
+                        }
+                    }
+                }
+            }
+            button{
+                padding: 10px 30px;
+                background-color:$primary !important;
+                color:$white !important;
+                border-radius: 0 !important;
+                border:1px solid $primary;
+                
+                &:focus{
+                    box-shadow: none !important;
+                }
+                i{
+                    padding-right: 10px;
+                }
+            }
+            
+        }
+        .hero{
+            p{
+                font-size: $fs-24;
+                color:$white;
+                font-weight: 400;
+                font-family: $font-playfair;
+                padding: 10px 0;
+            }
+            h3{
+                padding-top: 150px;
+            }
+            button{
+                padding: 10px 30px;
+                background-color:$primary !important;
+                color:$white !important;
+                border-radius: 0 !important;
+                margin-top: 30px;
+                transition: all 0.5s;
+                &:hover{
+                    background-color:transparent !important;
+                    border:2px solid $primary !important;
+                }
+                &:focus{
+                    box-shadow: none !important;
+                }
+            }
+        }
+        
+    }
+
+// header & hero banner end
+
+// second section start
+.ab-1{
+    position: relative;
+    h2{
+        position: absolute;
+        bottom:65px;
+        left: 70px;
+        color:$white;
+    }
+}
+.journal{
+    position: relative;
+    h2{
+        position: absolute;
+        bottom:65px;
+        left:70px;
+        color:$black;
+    }
+}
+// second section end
+
+
+// journal section start
+.journal-bg{
+    background-image:url(../images/3.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    padding: 100px 0;
+    h2{
+        color:$black !important;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: "";
+            width: 100px;
+            height: 2px;
+            bottom: -13px;
+            right: 595px;
+            background-color: $black;
+           
+        }
+       
+    }
+    p{
+        padding: 30px 0;
+    }
+    h5{
+        font-weight: 700;
+    }
+}   
+// journal section end
+
+
+// slider start
+.bg{
+    background-color:$bg-color;
+    padding: 10px 0;
+    h2{
+        color:$black !important;
+        padding: 20px 0;
+    }
+    .owl-item img{
+       width: 100px !important;
+       display:inline !important;
+       
+      }
+      i{
+        color:$primary;
+        font-size: 50px;
+        
+        
+       }
+    .owl-dots{
+        display: block !important;
+        color:$primary !important;
+        text-align: end !important;
+        padding-right: 200px;
+        .active span{
+            background-color:$primary !important;
+            width: 13px !important;
+            height: 13px !important;
+        }
+        
+    }
+    .owl-nav{
+        display: none;
+    }
+    h5{
+        color:$primary;
+        font-size: $fs-18;
+        padding-top: 10px;
+    } 
+}
+.owl-theme .owl-dots .owl-dot span{
+            
+    width: 13px !important;
+    height: 13px !important;
+    border: 2px solid $primary;
+           
+}
+.owl-dot:hover span{
+    background-color:$bg-color !important;
+}
+// slider end
+
+
+// video start
+.video-bg{
+   
+    margin-top: -235px !important;
+    h2{
+        padding-top: 350px;
+    }
+}
+// video end
+
+
+// made with love start
+.love1{
+    background-image:url(../images/love1.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    .overlay{
+        background-color:$black;
+        opacity:0.7;
+        padding: 180px 0;
+        h4{
+            font-size: $fs-24;
+            color:white;
+
+        }
+    }
+   
+}
+.love2{
+    background-image:url(../images/love2.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    .overlay{
+        background-color:$black;
+        opacity:0.7;
+        padding: 180px 0;
+        h4{
+            font-size: $fs-24;
+            color:white;
+
+        }
+    }
+   
+}
+.love3{
+    background-image:url(../images/love3.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding: 0 !important;
+    margin: 0 !important;
+    .overlay{
+        background-color:$black;
+        opacity:0.7;
+        padding: 180px 0;
+        h4{
+            font-size: $fs-24;
+            color:white;
+
+        }
+    }
+   
+}
+// made with love end
+// insta start
+.insta{
+    h2{
+        font-size: 40px;
+    }
+    h5{
+        color:$primary;
+        padding: 10px 0;
+    }
+}
+// insta end
+
+// newslatter start
+
+.news{
+    input{
+        width: 83%;
+        border: none;
+        border-bottom:2px solid #848282;
+        padding: 10px 0;
+    }
+    button{
+        padding: 10px 30px;
+        background-color:$primary !important;
+        color:$white !important;
+        border-radius: 0 !important;
+        &:focus{
+            box-shadow: none !important;
+        }
+    }
+    h4{
+        font-size: 32px;
+        font-family: $font-playfair;
+        font-weight: 600;
+    }
+}
+// newslatter end
+
+
+// footer start
+footer{
+    background:#2B2B2B;
+    padding-bottom: 40px;
+    .top-footer{
+        padding: 30px 0;
+        border-bottom:2px solid $primary;
+        h5{
+            color:$primary;
+            padding-top: 20px;
+        }
+    }
+    .middle-footer{
+        .col-lg-4{
+            padding: 5px;
+        }
+        h2{
+            color:$primary;
+            padding: 10px 0;
+            padding-top: 40px;
+        }
+        ul{
+            li{
+                a{
+                    color:$white;
+                    font-size: $fs-18;
+                    transition: all 0.5s;
+                    &:hover{
+                        color:$primary;
+                    }
+                }
+                i{
+                    color:$white;
+                    font-size: $fs-20;
+                    margin-right: 20px;
+                    &:hover{
+                        color:$primary;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+.bottom-footer{
+    background-color:$primary;
+    p{
+        color:$white;
+        font-size: $fs-18;
+    }
+    i{
+        color:$white;
+        font-size: 30px;
+    }
+}
+// footer end
+
+
+
+// home page scss end

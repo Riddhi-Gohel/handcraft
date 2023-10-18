@@ -1,0 +1,56 @@
+// shop page scss start
+
+
+
+// hero banner 
+.shop{
+    background-image:url(../images/shop-banner.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+// hero banner end
+
+// product section start
+#exTab1 {
+    ul{
+        border-top: 1px solid $black;
+        padding: 20px 0;
+        li{
+            a{
+                color:$primary;
+                font-size: $fs-24;
+                font-weight: 600;
+            }
+        }
+    }
+    .tab-content{
+        .card-body{
+            h2{
+                color: $primary;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+// product section end
+
+// journal section start
+.product-bg{
+    background-color:$bg-color;
+    .col-lg-6, .col-md-12{
+        padding-left: 50px;
+    }
+    i{
+        color:$primary;
+        padding-right: 7px;
+        font-size: 15px;
+    }
+    h4{
+        font-family: $font-playfair;
+    }
+}
+// journal section end

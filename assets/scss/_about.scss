@@ -1,0 +1,99 @@
+// about page scss start
+
+
+// header and hero banner start
+.about{
+    background-image:url(../images/ab1.png);
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    .overlay{
+        background-color:$black;
+        opacity:0.8;
+        padding-bottom: 150px;
+        header{
+            border-bottom: 1px solid $primary;
+            nav{
+                ul{
+                    li{
+                        a{
+                            font-size: 16px;
+                            font-weight: 500 !important;
+                            color:$white !important;
+                        }
+                    }
+                }
+            }
+            button{
+                padding: 10px 30px;
+                background-color:$primary !important;
+                color:$white !important;
+                border-radius: 0 !important;
+                i{
+                    padding-right: 10px;
+                }
+            }
+            
+        }
+        .hero{
+            p{
+                font-size: $fs-24;
+                color:$white;
+                font-weight: 400;
+                font-family: $font-playfair;
+                padding: 10px 0;
+            }
+            h3{
+                padding-top: 150px;
+            }
+            
+        }
+        
+    }
+}
+// header and hero banner end
+
+
+// about section start
+.about-2{
+    i{
+        padding-right: 16px;
+        font-size: 20px;
+        color:$primary;
+    }
+    a{
+        color:$primary;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    h4{
+        font-size: 24px;
+        font-family: $font-playfair;
+        font-weight: 700;
+        padding-top: 20px ;
+    }
+    h5{
+        font-size: 20px;
+        color:$primary;
+        padding-bottom: 10px;
+    }
+}
+// about section end
+
+// slider-img start
+.slider2{
+    background-color:$bg-color;
+    padding: 90px 0;
+    img{
+        width: 150px !important;
+    }
+   .slider{
+    .owl-dots{
+        display: none;
+    }
+    .owl-nav{
+        display: none;
+    }
+   }
+}
+// slider-img end
